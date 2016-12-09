@@ -39,6 +39,14 @@
          font-family: monospace
       }
    </STYLE>
+   <STYLE type="text/css">
+      img {
+         max-width: 100%;
+         height: auto;
+         width: auto\9;
+         /* ie8 */
+      }
+   </STYLE>
 
 </head>
 
@@ -71,7 +79,8 @@
 
    <H2>OVERVIEW OF THE MODEL</H2>
 
-   <p>The applet shows two independent areas: a small (8x8) green garden on the left, and a large (200x200) yellow desert on the right. For each area, an iteration of the model implies (a) the creation of one agent in the middle of the area, and (b) that each agent within the area advances one step: upwards (with probability 0.4), leftwards (with probability 0.2), rightwards (with probability 0.2) or downwards (with probability 0.2). Agents that reach the border of their corresponding area cannot return. The button "Clear" initialises the model. </p>
+   <img style="margin:0px auto;display:block" src="./garden-desert.png" alt="timeline" />
+   <p>The model shows two independent areas: a small (8x8) green garden on the left, and a large (200x200) yellow desert on the right. For each area, an iteration of the model implies (a) the creation of one agent in the middle of the area, and (b) that each agent within the area advances one step: upwards (with probability 0.4), leftwards (with probability 0.2), rightwards (with probability 0.2) or downwards (with probability 0.2). Agents that reach the border of their corresponding area cannot return. The button "Clear" initialises the model. </p>
 
    <H2>LICENCE</H2>
    <p>Garden-Desert is a model designed to illustrate the mean-field approximation of stochastic models
